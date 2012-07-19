@@ -1,0 +1,10 @@
+r events
+  cd events
+  git init
+  touch HOWTO
+  git config --global user.name "Chris Frye"
+  git config --global user.email chris.frye@gmail.com
+  git add HOWTO
+  git commit -m 'first commit'
+  git remote add origin https://github.com/cfrye2000/events.git
+  git push -u origin master
